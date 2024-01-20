@@ -452,6 +452,23 @@ body {
           filter: hue-rotate(20deg);
 }
 
+.hero__image-opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #1e1a1a;
+  opacity: 0.2;
+  z-index: 1;
+
+}
+
+.photo {
+  position: relative;
+  z-index: 0;
+}
+
+
 .hero__contact {
   display: none;
   padding: 50px 0;
@@ -832,8 +849,8 @@ body {
 
 .skill__grid {
   display: grid;
-  grid-template-columns: repeat(4, 290px);
-  grid-template-rows: repeat(2, 290px);
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(2, 400px);
   gap: 30px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
